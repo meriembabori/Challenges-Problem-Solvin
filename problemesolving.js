@@ -79,3 +79,23 @@ const prompt = require("prompt-sync")();
 //   console.log(lettres[i] + " : " + compter[i]);
 // }
 // Defi 9 :
+
+// Defi 10:
+// let parking = [1, 1, 1,0, 1, 0];
+
+// let placeLibre = 0; 
+// for (let i = 0; i < parking.length; i++) {
+//   if (parking[i] === 0) {
+//     placeLibre = i;
+//     break; }}
+// console.log(" la première place libre :", placeLibre);
+// Defi 11 : 
+// let tableau3=[1, 2, 3, 5] 
+// let nombre = 0
+// for (let i=0; i<tableau3.length-1;i++)
+// {
+//     if(tableau3[i]+1!==tableau3[i+1])
+//     {
+//          nombre = tableau3[i]+1
+//     break ;}
+// }console.log("le nombre manquant est : ",nombre )
